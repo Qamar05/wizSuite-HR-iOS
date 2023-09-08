@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D35ECCD2AA9DDE600057561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECCC2AA9DDE600057561 /* AppDelegate.swift */; };
+		7D35ECCF2AA9DDE600057561 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECCE2AA9DDE600057561 /* SceneDelegate.swift */; };
+		7D35ECD12AA9DDE600057561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECD02AA9DDE600057561 /* ViewController.swift */; };
+		7D35ECD42AA9DDE600057561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D35ECD22AA9DDE600057561 /* Main.storyboard */; };
+		7D35ECD62AA9DDE700057561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D35ECD52AA9DDE700057561 /* Assets.xcassets */; };
+		7D35ECD92AA9DDE700057561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D35ECD72AA9DDE700057561 /* LaunchScreen.storyboard */; };
+		7D35ECE42AA9DDE700057561 /* wizSuite_HRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECE32AA9DDE700057561 /* wizSuite_HRTests.swift */; };
+		7D35ECEE2AA9DDE700057561 /* wizSuite_HRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECED2AA9DDE700057561 /* wizSuite_HRUITests.swift */; };
+		7D35ECF02AA9DDE700057561 /* wizSuite_HRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECEF2AA9DDE700057561 /* wizSuite_HRUITestsLaunchTests.swift */; };
+		7D35ED042AAADA7400057561 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED022AAADA7400057561 /* HomeViewController.swift */; };
+		7D35ED432AAB231F00057561 /* HolidayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED422AAB231F00057561 /* HolidayListViewController.swift */; };
+		7D35ED452AAB25CC00057561 /* ManageLeavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED442AAB25CC00057561 /* ManageLeavesViewController.swift */; };
+		7D35ED4A2AAB287700057561 /* AttendanceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED492AAB287700057561 /* AttendanceDetailsViewController.swift */; };
+		7D35ED4D2AAB2A4300057561 /* AttendenceRegularizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationViewController.swift */; };
+		7D35ED532AAB36A400057561 /* HolidayListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED512AAB36A400057561 /* HolidayListTableViewCell.swift */; };
+		7D35ED542AAB36A400057561 /* HolidayListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D35ED522AAB36A400057561 /* HolidayListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D35ECE02AA9DDE700057561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D35ECC12AA9DDE600057561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D35ECC82AA9DDE600057561;
+			remoteInfo = "wizSuite HR";
+		};
+		7D35ECEA2AA9DDE700057561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D35ECC12AA9DDE600057561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D35ECC82AA9DDE600057561;
+			remoteInfo = "wizSuite HR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D35ECC92AA9DDE600057561 /* wizSuite HR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wizSuite HR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D35ECCC2AA9DDE600057561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D35ECCE2AA9DDE600057561 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D35ECD02AA9DDE600057561 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D35ECD32AA9DDE600057561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D35ECD52AA9DDE700057561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D35ECD82AA9DDE700057561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D35ECDA2AA9DDE700057561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D35ECDF2AA9DDE700057561 /* wizSuite HRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wizSuite HRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D35ECE32AA9DDE700057561 /* wizSuite_HRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wizSuite_HRTests.swift; sourceTree = "<group>"; };
+		7D35ECE92AA9DDE700057561 /* wizSuite HRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wizSuite HRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D35ECED2AA9DDE700057561 /* wizSuite_HRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wizSuite_HRUITests.swift; sourceTree = "<group>"; };
+		7D35ECEF2AA9DDE700057561 /* wizSuite_HRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wizSuite_HRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D35ED022AAADA7400057561 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7D35ED422AAB231F00057561 /* HolidayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayListViewController.swift; sourceTree = "<group>"; };
+		7D35ED442AAB25CC00057561 /* ManageLeavesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageLeavesViewController.swift; sourceTree = "<group>"; };
+		7D35ED492AAB287700057561 /* AttendanceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceDetailsViewController.swift; sourceTree = "<group>"; };
+		7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceRegularizationViewController.swift; sourceTree = "<group>"; };
+		7D35ED512AAB36A400057561 /* HolidayListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayListTableViewCell.swift; sourceTree = "<group>"; };
+		7D35ED522AAB36A400057561 /* HolidayListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolidayListTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D35ECC62AA9DDE600057561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D35ECDC2AA9DDE700057561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D35ECE62AA9DDE700057561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D35ECC02AA9DDE600057561 = {
+			isa = PBXGroup;
+			children = (
+				7D35ECCB2AA9DDE600057561 /* wizSuite HR */,
+				7D35ECE22AA9DDE700057561 /* wizSuite HRTests */,
+				7D35ECEC2AA9DDE700057561 /* wizSuite HRUITests */,
+				7D35ECCA2AA9DDE600057561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D35ECCA2AA9DDE600057561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ECC92AA9DDE600057561 /* wizSuite HR.app */,
+				7D35ECDF2AA9DDE700057561 /* wizSuite HRTests.xctest */,
+				7D35ECE92AA9DDE700057561 /* wizSuite HRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D35ECCB2AA9DDE600057561 /* wizSuite HR */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ED502AAB339300057561 /* Login */,
+				7D35ED4B2AAB28A900057561 /* Attendance Regularization */,
+				7D35ED482AAB284A00057561 /* Attendance Details */,
+				7D35ED472AAB283C00057561 /* Leaves */,
+				7D35ED462AAB27FB00057561 /* Holiday */,
+				7D35ED012AAADA5D00057561 /* Home */,
+				7D35ECCC2AA9DDE600057561 /* AppDelegate.swift */,
+				7D35ECCE2AA9DDE600057561 /* SceneDelegate.swift */,
+				7D35ECD02AA9DDE600057561 /* ViewController.swift */,
+				7D35ECD22AA9DDE600057561 /* Main.storyboard */,
+				7D35ECD52AA9DDE700057561 /* Assets.xcassets */,
+				7D35ECD72AA9DDE700057561 /* LaunchScreen.storyboard */,
+				7D35ECDA2AA9DDE700057561 /* Info.plist */,
+			);
+			path = "wizSuite HR";
+			sourceTree = "<group>";
+		};
+		7D35ECE22AA9DDE700057561 /* wizSuite HRTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ECE32AA9DDE700057561 /* wizSuite_HRTests.swift */,
+			);
+			path = "wizSuite HRTests";
+			sourceTree = "<group>";
+		};
+		7D35ECEC2AA9DDE700057561 /* wizSuite HRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ECED2AA9DDE700057561 /* wizSuite_HRUITests.swift */,
+				7D35ECEF2AA9DDE700057561 /* wizSuite_HRUITestsLaunchTests.swift */,
+			);
+			path = "wizSuite HRUITests";
+			sourceTree = "<group>";
+		};
+		7D35ED012AAADA5D00057561 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ED022AAADA7400057561 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7D35ED462AAB27FB00057561 /* Holiday */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ED422AAB231F00057561 /* HolidayListViewController.swift */,
+				7D35ED512AAB36A400057561 /* HolidayListTableViewCell.swift */,
+				7D35ED522AAB36A400057561 /* HolidayListTableViewCell.xib */,
+			);
+			path = Holiday;
+			sourceTree = "<group>";
+		};
+		7D35ED472AAB283C00057561 /* Leaves */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ED442AAB25CC00057561 /* ManageLeavesViewController.swift */,
+			);
+			path = Leaves;
+			sourceTree = "<group>";
+		};
+		7D35ED482AAB284A00057561 /* Attendance Details */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ED492AAB287700057561 /* AttendanceDetailsViewController.swift */,
+			);
+			path = "Attendance Details";
+			sourceTree = "<group>";
+		};
+		7D35ED4B2AAB28A900057561 /* Attendance Regularization */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationViewController.swift */,
+			);
+			path = "Attendance Regularization";
+			sourceTree = "<group>";
+		};
+		7D35ED502AAB339300057561 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D35ECC82AA9DDE600057561 /* wizSuite HR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D35ECF32AA9DDE700057561 /* Build configuration list for PBXNativeTarget "wizSuite HR" */;
+			buildPhases = (
+				7D35ECC52AA9DDE600057561 /* Sources */,
+				7D35ECC62AA9DDE600057561 /* Frameworks */,
+				7D35ECC72AA9DDE600057561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wizSuite HR";
+			productName = "wizSuite HR";
+			productReference = 7D35ECC92AA9DDE600057561 /* wizSuite HR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D35ECDE2AA9DDE700057561 /* wizSuite HRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D35ECF62AA9DDE700057561 /* Build configuration list for PBXNativeTarget "wizSuite HRTests" */;
+			buildPhases = (
+				7D35ECDB2AA9DDE700057561 /* Sources */,
+				7D35ECDC2AA9DDE700057561 /* Frameworks */,
+				7D35ECDD2AA9DDE700057561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D35ECE12AA9DDE700057561 /* PBXTargetDependency */,
+			);
+			name = "wizSuite HRTests";
+			productName = "wizSuite HRTests";
+			productReference = 7D35ECDF2AA9DDE700057561 /* wizSuite HRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D35ECE82AA9DDE700057561 /* wizSuite HRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D35ECF92AA9DDE700057561 /* Build configuration list for PBXNativeTarget "wizSuite HRUITests" */;
+			buildPhases = (
+				7D35ECE52AA9DDE700057561 /* Sources */,
+				7D35ECE62AA9DDE700057561 /* Frameworks */,
+				7D35ECE72AA9DDE700057561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D35ECEB2AA9DDE700057561 /* PBXTargetDependency */,
+			);
+			name = "wizSuite HRUITests";
+			productName = "wizSuite HRUITests";
+			productReference = 7D35ECE92AA9DDE700057561 /* wizSuite HRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D35ECC12AA9DDE600057561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7D35ECC82AA9DDE600057561 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7D35ECDE2AA9DDE700057561 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7D35ECC82AA9DDE600057561;
+					};
+					7D35ECE82AA9DDE700057561 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7D35ECC82AA9DDE600057561;
+					};
+				};
+			};
+			buildConfigurationList = 7D35ECC42AA9DDE600057561 /* Build configuration list for PBXProject "wizSuite HR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D35ECC02AA9DDE600057561;
+			productRefGroup = 7D35ECCA2AA9DDE600057561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D35ECC82AA9DDE600057561 /* wizSuite HR */,
+				7D35ECDE2AA9DDE700057561 /* wizSuite HRTests */,
+				7D35ECE82AA9DDE700057561 /* wizSuite HRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D35ECC72AA9DDE600057561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D35ECD92AA9DDE700057561 /* LaunchScreen.storyboard in Resources */,
+				7D35ECD62AA9DDE700057561 /* Assets.xcassets in Resources */,
+				7D35ED542AAB36A400057561 /* HolidayListTableViewCell.xib in Resources */,
+				7D35ECD42AA9DDE600057561 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D35ECDD2AA9DDE700057561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D35ECE72AA9DDE700057561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D35ECC52AA9DDE600057561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D35ED042AAADA7400057561 /* HomeViewController.swift in Sources */,
+				7D35ED432AAB231F00057561 /* HolidayListViewController.swift in Sources */,
+				7D35ED4D2AAB2A4300057561 /* AttendenceRegularizationViewController.swift in Sources */,
+				7D35ED452AAB25CC00057561 /* ManageLeavesViewController.swift in Sources */,
+				7D35ECD12AA9DDE600057561 /* ViewController.swift in Sources */,
+				7D35ECCD2AA9DDE600057561 /* AppDelegate.swift in Sources */,
+				7D35ED532AAB36A400057561 /* HolidayListTableViewCell.swift in Sources */,
+				7D35ECCF2AA9DDE600057561 /* SceneDelegate.swift in Sources */,
+				7D35ED4A2AAB287700057561 /* AttendanceDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D35ECDB2AA9DDE700057561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D35ECE42AA9DDE700057561 /* wizSuite_HRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D35ECE52AA9DDE700057561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D35ECF02AA9DDE700057561 /* wizSuite_HRUITestsLaunchTests.swift in Sources */,
+				7D35ECEE2AA9DDE700057561 /* wizSuite_HRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D35ECE12AA9DDE700057561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D35ECC82AA9DDE600057561 /* wizSuite HR */;
+			targetProxy = 7D35ECE02AA9DDE700057561 /* PBXContainerItemProxy */;
+		};
+		7D35ECEB2AA9DDE700057561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D35ECC82AA9DDE600057561 /* wizSuite HR */;
+			targetProxy = 7D35ECEA2AA9DDE700057561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D35ECD22AA9DDE600057561 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D35ECD32AA9DDE600057561 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D35ECD72AA9DDE700057561 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D35ECD82AA9DDE700057561 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D35ECF12AA9DDE700057561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D35ECF22AA9DDE700057561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D35ECF42AA9DDE700057561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wizSuite HR/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VMS.wizSuite-HR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D35ECF52AA9DDE700057561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wizSuite HR/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VMS.wizSuite-HR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D35ECF72AA9DDE700057561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VMS.wizSuite-HRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wizSuite HR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wizSuite HR";
+			};
+			name = Debug;
+		};
+		7D35ECF82AA9DDE700057561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VMS.wizSuite-HRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wizSuite HR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wizSuite HR";
+			};
+			name = Release;
+		};
+		7D35ECFA2AA9DDE700057561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VMS.wizSuite-HRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wizSuite HR";
+			};
+			name = Debug;
+		};
+		7D35ECFB2AA9DDE700057561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VMS.wizSuite-HRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wizSuite HR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D35ECC42AA9DDE600057561 /* Build configuration list for PBXProject "wizSuite HR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D35ECF12AA9DDE700057561 /* Debug */,
+				7D35ECF22AA9DDE700057561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D35ECF32AA9DDE700057561 /* Build configuration list for PBXNativeTarget "wizSuite HR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D35ECF42AA9DDE700057561 /* Debug */,
+				7D35ECF52AA9DDE700057561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D35ECF62AA9DDE700057561 /* Build configuration list for PBXNativeTarget "wizSuite HRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D35ECF72AA9DDE700057561 /* Debug */,
+				7D35ECF82AA9DDE700057561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D35ECF92AA9DDE700057561 /* Build configuration list for PBXNativeTarget "wizSuite HRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D35ECFA2AA9DDE700057561 /* Debug */,
+				7D35ECFB2AA9DDE700057561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D35ECC12AA9DDE600057561 /* Project object */;
+}
