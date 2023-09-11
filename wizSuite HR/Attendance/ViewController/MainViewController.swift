@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class MainViewController: UIViewController {
 
     
     @IBOutlet weak var currentDayNameLbl: UILabel!
@@ -16,11 +16,7 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var upperView: UIView!
     
-    
-    
     @IBOutlet weak var checkInOutBtn: UIButton!
-    
-    
     
     
     @IBOutlet weak var leavesView: UIView!
@@ -56,7 +52,7 @@ class HomeViewController: UIViewController {
         configureUpperView()
         configureLowerView()
         
-        
+                
 
         // Do any additional setup after loading the view.
     }
@@ -71,10 +67,11 @@ class HomeViewController: UIViewController {
     
     
     
+    
     @objc func handleLeavesViewTap(_ sender: UITapGestureRecognizer? = nil) {
         // handling code
         
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ManageLeavesViewController") as? ManageLeavesViewController
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ManageLeavesViewController") as? ManageLeavesVC
         self.navigationController?.pushViewController(vc!, animated: true)
         
         
@@ -82,7 +79,7 @@ class HomeViewController: UIViewController {
     
     @objc func handleAttendanceDetailsViewTap(_ sender: UITapGestureRecognizer? = nil) {
         
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AttendanceDetailsViewController") as? AttendanceDetailsViewController
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AttendanceDetailsViewController") as? AttendanceDetailsVC
         self.navigationController?.pushViewController(vc!, animated: true)
         
         
@@ -91,7 +88,7 @@ class HomeViewController: UIViewController {
     
     @objc func handleHolidayListViewTap(_ sender: UITapGestureRecognizer? = nil) {
         
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "HolidayListViewController") as? HolidayListViewController
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "HolidayListViewController") as? HolidayListVC
         self.navigationController?.pushViewController(vc!, animated: true)
         
         
@@ -101,7 +98,7 @@ class HomeViewController: UIViewController {
     @objc func handleAttendanceRegularizationViewTap(_ sender: UITapGestureRecognizer? = nil) {
         // handling code
         
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AttendenceRegularizationViewController") as? AttendenceRegularizationViewController
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AttendenceRegularizationViewController") as? AttendenceRegularizationVC
         self.navigationController?.pushViewController(vc!, animated: true)
         
         
@@ -127,7 +124,7 @@ class HomeViewController: UIViewController {
         
         
         checkInOutBtn.layer.cornerRadius = 6
-        checkInOutBtn.backgroundColor = UIColor(red: 74/255, green: 181/255, blue: 53/255, alpha: 1)
+        checkInOutBtn.backgroundColor = GenericColours.myCustomGreen
         checkInOutBtn.titleLabel?.text = "CHECK OUT"
         checkInOutBtn.setTitleColor(.white, for: .normal)
         checkInOutBtn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
@@ -138,16 +135,16 @@ class HomeViewController: UIViewController {
 
     func configureLowerView(){
         
-        leavesView.backgroundColor = UIColor(red: 74/255, green: 181/255, blue: 53/255, alpha: 1)
+        leavesView.backgroundColor =  GenericColours.myCustomGreen
         leavesView.layer.cornerRadius = 5
 
-        attendanceDetailsView.backgroundColor = UIColor(red: 74/255, green: 181/255, blue: 53/255, alpha: 1)
+        attendanceDetailsView.backgroundColor = GenericColours.myCustomGreen
         attendanceDetailsView.layer.cornerRadius = 5
 
-        holidayListView.backgroundColor = UIColor(red: 74/255, green: 181/255, blue: 53/255, alpha: 1)
+        holidayListView.backgroundColor = GenericColours.myCustomGreen
         holidayListView.layer.cornerRadius = 5
 
-        attendanceRegularizationView.backgroundColor = UIColor(red: 74/255, green: 181/255, blue: 53/255, alpha: 1)
+        attendanceRegularizationView.backgroundColor = GenericColours.myCustomGreen
         attendanceRegularizationView.layer.cornerRadius = 5
 
     }

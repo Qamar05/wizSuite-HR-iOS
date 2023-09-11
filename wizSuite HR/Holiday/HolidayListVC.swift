@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HolidayListViewController: UIViewController {
+class HolidayListVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -17,7 +17,6 @@ class HolidayListViewController: UIViewController {
 
         
         registerTableViewCells()
-        
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -30,6 +29,8 @@ class HolidayListViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         self.navigationItem.title = "Holiday List"
+        
+       // self.navigationController?.navigationBar.backgroundColor = UIColor.red
     }
     
     private func registerTableViewCells() {
@@ -42,13 +43,13 @@ class HolidayListViewController: UIViewController {
 }
 
 
-extension HolidayListViewController: UITableViewDataSource,UITableViewDelegate{
-   
+extension HolidayListVC: UITableViewDataSource,UITableViewDelegate{
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 20
     }
     
-   
+    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         

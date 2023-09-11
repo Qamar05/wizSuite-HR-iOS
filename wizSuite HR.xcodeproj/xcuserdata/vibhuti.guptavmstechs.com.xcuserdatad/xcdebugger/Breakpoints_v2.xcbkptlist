@@ -3,4 +3,831 @@
    uuid = "F037DB01-19BF-4B5E-92EC-BF84E9A668C9"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wizSuite HR/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchLoginData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c67b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c67b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "716">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c67b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1608">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c6687"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c6687"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1144">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c6687"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2072">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c6687"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1008">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c6687"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1140">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c6687"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2068">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c663c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "988">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c663c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 938701302f0c663c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "2076">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 1e5d3ad8ab824b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.fetchLoginData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "988">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 1e5d3ad8ab824b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.fetchLoginData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "212570F3-02FB-4E4D-951B-D7CF3340B4B6 - 1e5d3ad8ab824b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.fetchLoginData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "2076">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AAF4A22-338F-45FC-9DBF-F20420D66DA4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wizSuite HR/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchLoginData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4AAF4A22-338F-45FC-9DBF-F20420D66DA4 - 938701302f0c663c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "848">
+               </Location>
+               <Location
+                  uuid = "4AAF4A22-338F-45FC-9DBF-F20420D66DA4 - 938701302f0c6103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1296">
+               </Location>
+               <Location
+                  uuid = "4AAF4A22-338F-45FC-9DBF-F20420D66DA4 - 938701302f0c6103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1292">
+               </Location>
+               <Location
+                  uuid = "4AAF4A22-338F-45FC-9DBF-F20420D66DA4 - 938701302f0c66b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1304">
+               </Location>
+               <Location
+                  uuid = "4AAF4A22-338F-45FC-9DBF-F20420D66DA4 - 1e5d3ad8ab824aed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.fetchLoginData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wizSuite HR/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchLoginData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - 938701302f0c66e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1180">
+               </Location>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - 938701302f0c61cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1628">
+               </Location>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - 938701302f0c61cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - 938701302f0c6103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1632">
+               </Location>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - a77063a570a91324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - a77063a570a91324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - a77063a570a91324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - a77063a570a91324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - 1e5d3ad8ab824a10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static wizSuite_HR.LoginViewModel.fetchLoginData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1632">
+               </Location>
+               <Location
+                  uuid = "E43E9AAD-C7AA-44BC-95B3-8D9713B1ACA9 - d4c5824876f397dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.fetchLoginData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wizSuite HR/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchLoginData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3 - a77063a570a91483"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3 - a77063a570a91483"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3 - a77063a570a91483"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3 - a77063a570a9126a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3 - a77063a570a91324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3 - a77063a570a91324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3 - a77063a570a91324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3 - a77063a570a91324"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "817AC4BB-EEFB-46C2-84C3-4FD46DC6B2F3 - d4c5824876f397dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.fetchLoginData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wizSuite HR/Login/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetchLoginData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - a77063a570a913c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - a77063a570a91290"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - a77063a570a96f63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - a77063a570a96e4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - a77063a570a96f25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - a77063a570a96ece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - a77063a570a96ece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - a77063a570a96ece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - a77063a570a96ece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.getData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "BE794888-E09A-4F06-921D-AB3AE3D55252 - d4c5824876f391ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static wizSuite_HR.LoginViewModel.fetchLoginData() -&gt; ()"
+                  moduleName = "wizSuite HR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhuti.guptavmstechs.com/wizSuite-HR-iOS/wizSuite%20HR/Login/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

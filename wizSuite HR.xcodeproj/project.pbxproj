@@ -16,13 +16,22 @@
 		7D35ECE42AA9DDE700057561 /* wizSuite_HRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECE32AA9DDE700057561 /* wizSuite_HRTests.swift */; };
 		7D35ECEE2AA9DDE700057561 /* wizSuite_HRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECED2AA9DDE700057561 /* wizSuite_HRUITests.swift */; };
 		7D35ECF02AA9DDE700057561 /* wizSuite_HRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECEF2AA9DDE700057561 /* wizSuite_HRUITestsLaunchTests.swift */; };
-		7D35ED042AAADA7400057561 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED022AAADA7400057561 /* HomeViewController.swift */; };
-		7D35ED432AAB231F00057561 /* HolidayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED422AAB231F00057561 /* HolidayListViewController.swift */; };
-		7D35ED452AAB25CC00057561 /* ManageLeavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED442AAB25CC00057561 /* ManageLeavesViewController.swift */; };
-		7D35ED4A2AAB287700057561 /* AttendanceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED492AAB287700057561 /* AttendanceDetailsViewController.swift */; };
-		7D35ED4D2AAB2A4300057561 /* AttendenceRegularizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationViewController.swift */; };
+		7D35ED042AAADA7400057561 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED022AAADA7400057561 /* MainViewController.swift */; };
+		7D35ED432AAB231F00057561 /* HolidayListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED422AAB231F00057561 /* HolidayListVC.swift */; };
+		7D35ED452AAB25CC00057561 /* ManageLeavesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED442AAB25CC00057561 /* ManageLeavesVC.swift */; };
+		7D35ED4A2AAB287700057561 /* AttendanceDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED492AAB287700057561 /* AttendanceDetailsVC.swift */; };
+		7D35ED4D2AAB2A4300057561 /* AttendenceRegularizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationVC.swift */; };
 		7D35ED532AAB36A400057561 /* HolidayListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED512AAB36A400057561 /* HolidayListTableViewCell.swift */; };
 		7D35ED542AAB36A400057561 /* HolidayListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D35ED522AAB36A400057561 /* HolidayListTableViewCell.xib */; };
+		7D7DD2152AADD85100EE336D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DD2142AADD85100EE336D /* LoginViewModel.swift */; };
+		7D9D7C682AAED2B900AD56F6 /* SwiftConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9D7C672AAED2B900AD56F6 /* SwiftConstants.swift */; };
+		7D9D7C6B2AAED32400AD56F6 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9D7C6A2AAED32400AD56F6 /* LoginModel.swift */; };
+		7DA593052AAEF4C200240EF6 /* GenericMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA593042AAEF4C200240EF6 /* GenericMethods.swift */; };
+		7DA593072AAF19D300240EF6 /* LoginViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA593062AAF19D300240EF6 /* LoginViewVC.swift */; };
+		7DA593092AAF19E200240EF6 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA593082AAF19E200240EF6 /* ForgotPasswordVC.swift */; };
+		7DA5930E2AAF1B0E00240EF6 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5930D2AAF1B0E00240EF6 /* ChangePasswordVC.swift */; };
+		7DA593132AAF3BE100240EF6 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA593122AAF3BE100240EF6 /* MainViewViewModel.swift */; };
+		7DA593152AAF3BFA00240EF6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA593142AAF3BFA00240EF6 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +65,22 @@
 		7D35ECE92AA9DDE700057561 /* wizSuite HRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wizSuite HRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D35ECED2AA9DDE700057561 /* wizSuite_HRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wizSuite_HRUITests.swift; sourceTree = "<group>"; };
 		7D35ECEF2AA9DDE700057561 /* wizSuite_HRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wizSuite_HRUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7D35ED022AAADA7400057561 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		7D35ED422AAB231F00057561 /* HolidayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayListViewController.swift; sourceTree = "<group>"; };
-		7D35ED442AAB25CC00057561 /* ManageLeavesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageLeavesViewController.swift; sourceTree = "<group>"; };
-		7D35ED492AAB287700057561 /* AttendanceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceDetailsViewController.swift; sourceTree = "<group>"; };
-		7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceRegularizationViewController.swift; sourceTree = "<group>"; };
+		7D35ED022AAADA7400057561 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7D35ED422AAB231F00057561 /* HolidayListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayListVC.swift; sourceTree = "<group>"; };
+		7D35ED442AAB25CC00057561 /* ManageLeavesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageLeavesVC.swift; sourceTree = "<group>"; };
+		7D35ED492AAB287700057561 /* AttendanceDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceDetailsVC.swift; sourceTree = "<group>"; };
+		7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceRegularizationVC.swift; sourceTree = "<group>"; };
 		7D35ED512AAB36A400057561 /* HolidayListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayListTableViewCell.swift; sourceTree = "<group>"; };
 		7D35ED522AAB36A400057561 /* HolidayListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolidayListTableViewCell.xib; sourceTree = "<group>"; };
+		7D7DD2142AADD85100EE336D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7D9D7C672AAED2B900AD56F6 /* SwiftConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConstants.swift; sourceTree = "<group>"; };
+		7D9D7C6A2AAED32400AD56F6 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		7DA593042AAEF4C200240EF6 /* GenericMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericMethods.swift; sourceTree = "<group>"; };
+		7DA593062AAF19D300240EF6 /* LoginViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewVC.swift; sourceTree = "<group>"; };
+		7DA593082AAF19E200240EF6 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		7DA5930D2AAF1B0E00240EF6 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		7DA593122AAF3BE100240EF6 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		7DA593142AAF3BFA00240EF6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +131,13 @@
 		7D35ECCB2AA9DDE600057561 /* wizSuite HR */ = {
 			isa = PBXGroup;
 			children = (
+				7D9D7C662AAED27100AD56F6 /* Generics */,
 				7D35ED502AAB339300057561 /* Login */,
 				7D35ED4B2AAB28A900057561 /* Attendance Regularization */,
 				7D35ED482AAB284A00057561 /* Attendance Details */,
 				7D35ED472AAB283C00057561 /* Leaves */,
 				7D35ED462AAB27FB00057561 /* Holiday */,
-				7D35ED012AAADA5D00057561 /* Home */,
+				7D35ED012AAADA5D00057561 /* Attendance */,
 				7D35ECCC2AA9DDE600057561 /* AppDelegate.swift */,
 				7D35ECCE2AA9DDE600057561 /* SceneDelegate.swift */,
 				7D35ECD02AA9DDE600057561 /* ViewController.swift */,
@@ -147,18 +166,20 @@
 			path = "wizSuite HRUITests";
 			sourceTree = "<group>";
 		};
-		7D35ED012AAADA5D00057561 /* Home */ = {
+		7D35ED012AAADA5D00057561 /* Attendance */ = {
 			isa = PBXGroup;
 			children = (
-				7D35ED022AAADA7400057561 /* HomeViewController.swift */,
+				7DA593112AAF3B8A00240EF6 /* Model */,
+				7DA593102AAF3B7D00240EF6 /* ViewModel */,
+				7DA5930F2AAF3B6B00240EF6 /* ViewController */,
 			);
-			path = Home;
+			path = Attendance;
 			sourceTree = "<group>";
 		};
 		7D35ED462AAB27FB00057561 /* Holiday */ = {
 			isa = PBXGroup;
 			children = (
-				7D35ED422AAB231F00057561 /* HolidayListViewController.swift */,
+				7D35ED422AAB231F00057561 /* HolidayListVC.swift */,
 				7D35ED512AAB36A400057561 /* HolidayListTableViewCell.swift */,
 				7D35ED522AAB36A400057561 /* HolidayListTableViewCell.xib */,
 			);
@@ -168,7 +189,7 @@
 		7D35ED472AAB283C00057561 /* Leaves */ = {
 			isa = PBXGroup;
 			children = (
-				7D35ED442AAB25CC00057561 /* ManageLeavesViewController.swift */,
+				7D35ED442AAB25CC00057561 /* ManageLeavesVC.swift */,
 			);
 			path = Leaves;
 			sourceTree = "<group>";
@@ -176,7 +197,7 @@
 		7D35ED482AAB284A00057561 /* Attendance Details */ = {
 			isa = PBXGroup;
 			children = (
-				7D35ED492AAB287700057561 /* AttendanceDetailsViewController.swift */,
+				7D35ED492AAB287700057561 /* AttendanceDetailsVC.swift */,
 			);
 			path = "Attendance Details";
 			sourceTree = "<group>";
@@ -184,7 +205,7 @@
 		7D35ED4B2AAB28A900057561 /* Attendance Regularization */ = {
 			isa = PBXGroup;
 			children = (
-				7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationViewController.swift */,
+				7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationVC.swift */,
 			);
 			path = "Attendance Regularization";
 			sourceTree = "<group>";
@@ -192,8 +213,70 @@
 		7D35ED502AAB339300057561 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				7DA5930C2AAF1A2400240EF6 /* Model */,
+				7DA5930B2AAF1A1600240EF6 /* ViewModel */,
+				7DA5930A2AAF1A0700240EF6 /* ViewController */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		7D9D7C662AAED27100AD56F6 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				7D9D7C672AAED2B900AD56F6 /* SwiftConstants.swift */,
+				7DA593042AAEF4C200240EF6 /* GenericMethods.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		7DA5930A2AAF1A0700240EF6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7DA593062AAF19D300240EF6 /* LoginViewVC.swift */,
+				7DA593082AAF19E200240EF6 /* ForgotPasswordVC.swift */,
+				7DA5930D2AAF1B0E00240EF6 /* ChangePasswordVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7DA5930B2AAF1A1600240EF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D7DD2142AADD85100EE336D /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7DA5930C2AAF1A2400240EF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D9D7C6A2AAED32400AD56F6 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DA5930F2AAF3B6B00240EF6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7D35ED022AAADA7400057561 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7DA593102AAF3B7D00240EF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7DA593122AAF3BE100240EF6 /* MainViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7DA593112AAF3B8A00240EF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DA593142AAF3BFA00240EF6 /* MainViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,15 +411,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D35ED042AAADA7400057561 /* HomeViewController.swift in Sources */,
-				7D35ED432AAB231F00057561 /* HolidayListViewController.swift in Sources */,
-				7D35ED4D2AAB2A4300057561 /* AttendenceRegularizationViewController.swift in Sources */,
-				7D35ED452AAB25CC00057561 /* ManageLeavesViewController.swift in Sources */,
+				7DA593072AAF19D300240EF6 /* LoginViewVC.swift in Sources */,
+				7D35ED042AAADA7400057561 /* MainViewController.swift in Sources */,
+				7DA593132AAF3BE100240EF6 /* MainViewViewModel.swift in Sources */,
+				7D9D7C6B2AAED32400AD56F6 /* LoginModel.swift in Sources */,
+				7DA5930E2AAF1B0E00240EF6 /* ChangePasswordVC.swift in Sources */,
+				7D35ED432AAB231F00057561 /* HolidayListVC.swift in Sources */,
+				7D35ED4D2AAB2A4300057561 /* AttendenceRegularizationVC.swift in Sources */,
+				7D35ED452AAB25CC00057561 /* ManageLeavesVC.swift in Sources */,
 				7D35ECD12AA9DDE600057561 /* ViewController.swift in Sources */,
+				7DA593052AAEF4C200240EF6 /* GenericMethods.swift in Sources */,
 				7D35ECCD2AA9DDE600057561 /* AppDelegate.swift in Sources */,
+				7D9D7C682AAED2B900AD56F6 /* SwiftConstants.swift in Sources */,
 				7D35ED532AAB36A400057561 /* HolidayListTableViewCell.swift in Sources */,
 				7D35ECCF2AA9DDE600057561 /* SceneDelegate.swift in Sources */,
-				7D35ED4A2AAB287700057561 /* AttendanceDetailsViewController.swift in Sources */,
+				7D7DD2152AADD85100EE336D /* LoginViewModel.swift in Sources */,
+				7D35ED4A2AAB287700057561 /* AttendanceDetailsVC.swift in Sources */,
+				7DA593092AAF19E200240EF6 /* ForgotPasswordVC.swift in Sources */,
+				7DA593152AAF3BFA00240EF6 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

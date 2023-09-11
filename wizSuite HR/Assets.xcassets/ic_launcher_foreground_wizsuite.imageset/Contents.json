@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "AttendanceDetail.png",
+      "filename" : "ic_launcher_foreground_wizsuite.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "AttendanceDetail@2x.png",
+      "filename" : "ic_launcher_foreground_wizsuite@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "AttendanceDetail@3x.png",
+      "filename" : "ic_launcher_foreground_wizsuite@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

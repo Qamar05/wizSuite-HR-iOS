@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let rootVC = HomeViewController() // your custom viewController. You can instantiate using nib too. UIViewController(nib name, bundle)
+        let rootVC = LoginViewVC() // your custom viewController. You can instantiate using nib too. UIViewController(nib name, bundle)
         
         let navController = UINavigationController(rootViewController: rootVC) // Integrate navigation controller programmatically if you want
         window?.rootViewController = navController

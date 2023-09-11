@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AttendenceRegularizationViewController: UIViewController {
+class AttendenceRegularizationVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
