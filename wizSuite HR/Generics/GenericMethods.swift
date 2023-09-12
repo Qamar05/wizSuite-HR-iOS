@@ -15,3 +15,37 @@ class GenericMethods {
     }
 
 }
+
+extension Date {
+    
+    static func getCurrentDate() -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd - MM - yyyy"
+        return dateFormatter.string(from: Date())
+    }
+    
+    func dayOfWeek() -> String? {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "EEEE"
+        return dateFormatter.string(from: self).capitalized
+        // or use capitalized(with: locale) if you want
+    }
+    
+    func hour() -> String
+    {
+        
+        let hour = Calendar.current.component(.hour, from: Date())
+        return String(hour)
+        
+    }
+    
+    
+    func minute() -> String
+    {
+        let mins = Calendar.current.component(.minute, from: Date())
+        return String(mins)
+    }
+    
+    
+}
+

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D035CAB2AB0416600817367 /* OTPVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D035CAA2AB0416600817367 /* OTPVerificationVC.swift */; };
+		7D035CAD2AB0417C00817367 /* OTPVerificationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D035CAC2AB0417C00817367 /* OTPVerificationVM.swift */; };
+		7D035CAF2AB0418C00817367 /* OTPVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D035CAE2AB0418C00817367 /* OTPVerificationModel.swift */; };
+		7D035CB32AB06AD500817367 /* eye.slash.fill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7D035CB22AB06AD500817367 /* eye.slash.fill.svg */; };
+		7D035CB52AB06AD900817367 /* eye.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7D035CB42AB06AD900817367 /* eye.svg */; };
+		7D035CB92AB06D9100817367 /* checkmark.square.fill.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7D035CB82AB06D9100817367 /* checkmark.square.fill.svg */; };
+		7D035CBB2AB07B4000817367 /* OTPStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D035CBA2AB07B4000817367 /* OTPStackView.swift */; };
+		7D035CBD2AB08E3F00817367 /* squareshape.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7D035CBC2AB08E3F00817367 /* squareshape.svg */; };
 		7D35ECCD2AA9DDE600057561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECCC2AA9DDE600057561 /* AppDelegate.swift */; };
 		7D35ECCF2AA9DDE600057561 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECCE2AA9DDE600057561 /* SceneDelegate.swift */; };
 		7D35ECD12AA9DDE600057561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ECD02AA9DDE600057561 /* ViewController.swift */; };
@@ -23,7 +31,10 @@
 		7D35ED4D2AAB2A4300057561 /* AttendenceRegularizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationVC.swift */; };
 		7D35ED532AAB36A400057561 /* HolidayListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35ED512AAB36A400057561 /* HolidayListTableViewCell.swift */; };
 		7D35ED542AAB36A400057561 /* HolidayListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D35ED522AAB36A400057561 /* HolidayListTableViewCell.xib */; };
-		7D7DD2152AADD85100EE336D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DD2142AADD85100EE336D /* LoginViewModel.swift */; };
+		7D7DD2152AADD85100EE336D /* LoginViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DD2142AADD85100EE336D /* LoginViewVM.swift */; };
+		7D95E17F2AB032B900DE145E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95E17E2AB032B900DE145E /* Toast.swift */; };
+		7D95E1812AB034C200DE145E /* ForgotPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95E1802AB034C200DE145E /* ForgotPasswordModel.swift */; };
+		7D95E1832AB034CF00DE145E /* ForgotPasswordVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95E1822AB034CF00DE145E /* ForgotPasswordVM.swift */; };
 		7D9D7C682AAED2B900AD56F6 /* SwiftConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9D7C672AAED2B900AD56F6 /* SwiftConstants.swift */; };
 		7D9D7C6B2AAED32400AD56F6 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9D7C6A2AAED32400AD56F6 /* LoginModel.swift */; };
 		7DA593052AAEF4C200240EF6 /* GenericMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA593042AAEF4C200240EF6 /* GenericMethods.swift */; };
@@ -52,6 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D035CAA2AB0416600817367 /* OTPVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationVC.swift; sourceTree = "<group>"; };
+		7D035CAC2AB0417C00817367 /* OTPVerificationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationVM.swift; sourceTree = "<group>"; };
+		7D035CAE2AB0418C00817367 /* OTPVerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationModel.swift; sourceTree = "<group>"; };
+		7D035CB22AB06AD500817367 /* eye.slash.fill.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = eye.slash.fill.svg; sourceTree = "<group>"; };
+		7D035CB42AB06AD900817367 /* eye.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = eye.svg; sourceTree = "<group>"; };
+		7D035CB82AB06D9100817367 /* checkmark.square.fill.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = checkmark.square.fill.svg; sourceTree = "<group>"; };
+		7D035CBA2AB07B4000817367 /* OTPStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPStackView.swift; sourceTree = "<group>"; };
+		7D035CBC2AB08E3F00817367 /* squareshape.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = squareshape.svg; sourceTree = "<group>"; };
 		7D35ECC92AA9DDE600057561 /* wizSuite HR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wizSuite HR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D35ECCC2AA9DDE600057561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D35ECCE2AA9DDE600057561 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +91,10 @@
 		7D35ED4C2AAB2A4300057561 /* AttendenceRegularizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceRegularizationVC.swift; sourceTree = "<group>"; };
 		7D35ED512AAB36A400057561 /* HolidayListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayListTableViewCell.swift; sourceTree = "<group>"; };
 		7D35ED522AAB36A400057561 /* HolidayListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolidayListTableViewCell.xib; sourceTree = "<group>"; };
-		7D7DD2142AADD85100EE336D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7D7DD2142AADD85100EE336D /* LoginViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewVM.swift; sourceTree = "<group>"; };
+		7D95E17E2AB032B900DE145E /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		7D95E1802AB034C200DE145E /* ForgotPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordModel.swift; sourceTree = "<group>"; };
+		7D95E1822AB034CF00DE145E /* ForgotPasswordVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVM.swift; sourceTree = "<group>"; };
 		7D9D7C672AAED2B900AD56F6 /* SwiftConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConstants.swift; sourceTree = "<group>"; };
 		7D9D7C6A2AAED32400AD56F6 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		7DA593042AAEF4C200240EF6 /* GenericMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericMethods.swift; sourceTree = "<group>"; };
@@ -108,6 +130,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D035CA62AB0408700817367 /* OtpVerify */ = {
+			isa = PBXGroup;
+			children = (
+				7D035CA72AB040AA00817367 /* Model */,
+				7D035CA82AB040B700817367 /* ViewModel */,
+				7D035CA92AB040BE00817367 /* ViewController */,
+			);
+			path = OtpVerify;
+			sourceTree = "<group>";
+		};
+		7D035CA72AB040AA00817367 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D035CAE2AB0418C00817367 /* OTPVerificationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D035CA82AB040B700817367 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D035CAC2AB0417C00817367 /* OTPVerificationVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7D035CA92AB040BE00817367 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7D035CBA2AB07B4000817367 /* OTPStackView.swift */,
+				7D035CAA2AB0416600817367 /* OTPVerificationVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7D035CBE2AB098B000817367 /* SVG Image  */ = {
+			isa = PBXGroup;
+			children = (
+				7D035CBC2AB08E3F00817367 /* squareshape.svg */,
+				7D035CB82AB06D9100817367 /* checkmark.square.fill.svg */,
+				7D035CB22AB06AD500817367 /* eye.slash.fill.svg */,
+				7D035CB42AB06AD900817367 /* eye.svg */,
+			);
+			path = "SVG Image ";
+			sourceTree = "<group>";
+		};
 		7D35ECC02AA9DDE600057561 = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +199,9 @@
 		7D35ECCB2AA9DDE600057561 /* wizSuite HR */ = {
 			isa = PBXGroup;
 			children = (
+				7D035CBE2AB098B000817367 /* SVG Image  */,
 				7D9D7C662AAED27100AD56F6 /* Generics */,
+				7D95E1842AB034ED00DE145E /* ForgotPassword */,
 				7D35ED502AAB339300057561 /* Login */,
 				7D35ED4B2AAB28A900057561 /* Attendance Regularization */,
 				7D35ED482AAB284A00057561 /* Attendance Details */,
@@ -220,9 +290,45 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		7D95E1842AB034ED00DE145E /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				7D95E1862AB0350100DE145E /* Model */,
+				7D95E1852AB034F600DE145E /* ViewModel */,
+				7D95E1872AB0350800DE145E /* ViewController */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		7D95E1852AB034F600DE145E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D95E1822AB034CF00DE145E /* ForgotPasswordVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7D95E1862AB0350100DE145E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D95E1802AB034C200DE145E /* ForgotPasswordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D95E1872AB0350800DE145E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7DA593082AAF19E200240EF6 /* ForgotPasswordVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		7D9D7C662AAED27100AD56F6 /* Generics */ = {
 			isa = PBXGroup;
 			children = (
+				7D035CA62AB0408700817367 /* OtpVerify */,
+				7D95E17E2AB032B900DE145E /* Toast.swift */,
 				7D9D7C672AAED2B900AD56F6 /* SwiftConstants.swift */,
 				7DA593042AAEF4C200240EF6 /* GenericMethods.swift */,
 			);
@@ -233,7 +339,6 @@
 			isa = PBXGroup;
 			children = (
 				7DA593062AAF19D300240EF6 /* LoginViewVC.swift */,
-				7DA593082AAF19E200240EF6 /* ForgotPasswordVC.swift */,
 				7DA5930D2AAF1B0E00240EF6 /* ChangePasswordVC.swift */,
 			);
 			path = ViewController;
@@ -242,7 +347,7 @@
 		7DA5930B2AAF1A1600240EF6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				7D7DD2142AADD85100EE336D /* LoginViewModel.swift */,
+				7D7DD2142AADD85100EE336D /* LoginViewVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -384,9 +489,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D35ECD92AA9DDE700057561 /* LaunchScreen.storyboard in Resources */,
+				7D035CBD2AB08E3F00817367 /* squareshape.svg in Resources */,
 				7D35ECD62AA9DDE700057561 /* Assets.xcassets in Resources */,
+				7D035CB32AB06AD500817367 /* eye.slash.fill.svg in Resources */,
 				7D35ED542AAB36A400057561 /* HolidayListTableViewCell.xib in Resources */,
+				7D035CB92AB06D9100817367 /* checkmark.square.fill.svg in Resources */,
 				7D35ECD42AA9DDE600057561 /* Main.storyboard in Resources */,
+				7D035CB52AB06AD900817367 /* eye.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,21 +521,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA593072AAF19D300240EF6 /* LoginViewVC.swift in Sources */,
+				7D035CAB2AB0416600817367 /* OTPVerificationVC.swift in Sources */,
 				7D35ED042AAADA7400057561 /* MainViewController.swift in Sources */,
 				7DA593132AAF3BE100240EF6 /* MainViewViewModel.swift in Sources */,
+				7D95E17F2AB032B900DE145E /* Toast.swift in Sources */,
+				7D035CAD2AB0417C00817367 /* OTPVerificationVM.swift in Sources */,
 				7D9D7C6B2AAED32400AD56F6 /* LoginModel.swift in Sources */,
 				7DA5930E2AAF1B0E00240EF6 /* ChangePasswordVC.swift in Sources */,
 				7D35ED432AAB231F00057561 /* HolidayListVC.swift in Sources */,
+				7D95E1832AB034CF00DE145E /* ForgotPasswordVM.swift in Sources */,
 				7D35ED4D2AAB2A4300057561 /* AttendenceRegularizationVC.swift in Sources */,
 				7D35ED452AAB25CC00057561 /* ManageLeavesVC.swift in Sources */,
+				7D035CAF2AB0418C00817367 /* OTPVerificationModel.swift in Sources */,
+				7D95E1812AB034C200DE145E /* ForgotPasswordModel.swift in Sources */,
 				7D35ECD12AA9DDE600057561 /* ViewController.swift in Sources */,
 				7DA593052AAEF4C200240EF6 /* GenericMethods.swift in Sources */,
 				7D35ECCD2AA9DDE600057561 /* AppDelegate.swift in Sources */,
 				7D9D7C682AAED2B900AD56F6 /* SwiftConstants.swift in Sources */,
 				7D35ED532AAB36A400057561 /* HolidayListTableViewCell.swift in Sources */,
 				7D35ECCF2AA9DDE600057561 /* SceneDelegate.swift in Sources */,
-				7D7DD2152AADD85100EE336D /* LoginViewModel.swift in Sources */,
+				7D7DD2152AADD85100EE336D /* LoginViewVM.swift in Sources */,
 				7D35ED4A2AAB287700057561 /* AttendanceDetailsVC.swift in Sources */,
+				7D035CBB2AB07B4000817367 /* OTPStackView.swift in Sources */,
 				7DA593092AAF19E200240EF6 /* ForgotPasswordVC.swift in Sources */,
 				7DA593152AAF3BFA00240EF6 /* MainViewModel.swift in Sources */,
 			);

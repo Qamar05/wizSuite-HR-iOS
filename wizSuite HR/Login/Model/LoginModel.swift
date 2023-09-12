@@ -69,23 +69,3 @@ struct LoginModel : Decodable {
         
     }
 }
-
-
-
-//    "message": "Login Successful.",
-//        "status": true,
-//        "id": "61",
-//        "token": "9100d045a2823f88c32d20211d3ad048",
-//        "Firstname": "Qamar",
-//        "Lastname": "abbas",
-//        "Email": "qamar@vmstechs.com",
-//        "Phone": "9910985450",
-//        "DOB": "1993-06-20",
-//        "Location": "DELHI",
-//        "User_type": "Regular",
-//        "Designation": "Android Developer",
-//        "Photo": "https://fmcg.xaapps.com/images/844967-profile.jpg",
-//        "gender": "Male",
-//        "login_status": "True",
-//        "activestatus": "Active"
-//    }

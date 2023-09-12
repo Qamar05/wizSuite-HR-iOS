@@ -16,6 +16,11 @@ class MainViewController: UIViewController {
     
     @IBOutlet weak var upperView: UIView!
     
+    @IBOutlet weak var currentHoursLbl: UILabel!
+    @IBOutlet weak var currentMinsLbl: UILabel!
+    @IBOutlet weak var refreshButton: UIButton!
+    
+    
     @IBOutlet weak var checkInOutBtn: UIButton!
     
     
@@ -26,7 +31,10 @@ class MainViewController: UIViewController {
     @IBOutlet weak var holidayListView: UIView!
     
     @IBOutlet weak var attendanceRegularizationView: UIView!
-   
+    
+    
+//    @IBOutlet weak var refreshButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,8 +69,14 @@ class MainViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+
         
-        //self.navigationItem.title = "Attendance"
+//        let rightItem1 = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: nil)
+//
+//        navigationItem.leftBarButtonItems = [rightItem1]
+
+        self.navigationItem.title = "Attendance"
     }
     
     
@@ -108,26 +122,49 @@ class MainViewController: UIViewController {
     
     func configureUpperView(){
         
+        
+        refreshButton.backgroundColor = GenericColours.myCustomGreen
+        
+        
         upperView.layer.cornerRadius = 5
         upperView.layer.borderWidth = 0.5
         upperView.layer.borderColor = UIColor.gray.cgColor
     
                 
         currentDayNameLbl.font = UIFont.boldSystemFont(ofSize: 17)
-        currentDayNameLbl.textColor = UIColor(red: 74/255, green: 181/255, blue: 53/255, alpha: 1)
+        currentDayNameLbl.textColor = GenericColours.myCustomGreen
+        currentDayNameLbl.text = Date().dayOfWeek()!
         
         currentDateNameLbl.font = UIFont.boldSystemFont(ofSize: 17)
-        currentDateNameLbl.textColor = UIColor(red: 74/255, green: 181/255, blue: 53/255, alpha: 1)
+        currentDateNameLbl.textColor = GenericColours.myCustomGreen
+        currentDateNameLbl.text = "Date - " + Date.getCurrentDate()
+        
         
         currentLocationLbl.font = UIFont.boldSystemFont(ofSize: 17)
-        currentLocationLbl.textColor = UIColor(red: 74/255, green: 181/255, blue: 53/255, alpha: 1)
+        currentLocationLbl.textColor = GenericColours.myCustomGreen
         
         
         checkInOutBtn.layer.cornerRadius = 6
         checkInOutBtn.backgroundColor = GenericColours.myCustomGreen
         checkInOutBtn.titleLabel?.text = "CHECK OUT"
         checkInOutBtn.setTitleColor(.white, for: .normal)
-        checkInOutBtn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+      //  checkInOutBtn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        
+        
+        refreshButton.backgroundColor = GenericColours.myCustomGreen
+        
+        
+//
+//        let date = Date()
+//        let calendar = Calendar.current
+//        let hour = calendar.component(.hour, from: date)
+//        let minutes = calendar.component(.minute, from: date)
+//
+//
+        
+        
+        currentHoursLbl.text = Date().hour()
+        currentMinsLbl.text = Date().minute()
 
         
     }
@@ -148,5 +185,7 @@ class MainViewController: UIViewController {
         attendanceRegularizationView.layer.cornerRadius = 5
 
     }
+    
+    
 
 }
