@@ -81,23 +81,10 @@ class MainViewController: UIViewController{
     
     override func viewWillDisappear(_ animated: Bool) {
         
-        print("viewWillDisappear*** of Main Controller Called")
         super.viewWillDisappear(animated)
     }
     
     
-    
-//    override var preferredStatusBarStyle: UIStatusBarStyle {
-//
-//         return .lightContent
-//
-//    }
-    
-//    override var preferredStatusBarStyle : UIStatusBarStyle {
-//        return .lightContent //.default for black style
-//    }
-//
-//
     @objc func leftBarButtonClickAction(_ sender: UIBarButtonItem? = nil) {
         self.sideMenuState(expanded: self.isExpanded ? false : true)
     }
@@ -259,9 +246,9 @@ extension MainViewController: SideMenuViewControllerDelegate {
         }))
         
         alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: { (action: UIAlertAction!) in
+           
             DispatchQueue.main.async {
                 
-                                
                 UserDefaults.standard.removeObject(forKey: "TOKEN")
                 UserDefaults.standard.removeObject(forKey: "USERNAME")
                 UserDefaults.standard.removeObject(forKey: "DESIGNATION")
@@ -273,20 +260,8 @@ extension MainViewController: SideMenuViewControllerDelegate {
                 UserDefaults.standard.removeObject(forKey: "STATUS")
                 UserDefaults.standard.removeObject(forKey: "USERID")
                 UserDefaults.standard.removeObject(forKey: "LOGINSTATUS")
-
                 
-           //     DispatchQueue.main.async {
-                    
-                    
-                    self.navigationController?.popToRootViewController(animated: true)
-                 //   self.navigationController?.popViewController(animated: true)
-                    
-                    
-//                    let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "LoginViewVC") as? LoginViewVC
-//                    self.view.window?.rootViewController = UINavigationController(rootViewController: vc!)
-//                    
-             //   }
-                
+                self.navigationController?.popToRootViewController(animated: true)
                 
             }
             

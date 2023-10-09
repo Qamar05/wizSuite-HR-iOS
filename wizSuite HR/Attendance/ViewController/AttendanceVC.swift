@@ -34,7 +34,7 @@ class AttendanceVC: UIViewController {
     var buttonStatus: String = "CHECK IN"
     var isAppInstalledFirstTime: Bool = true
     var locationManager : CLLocationManager! = nil
-
+    
     
     override func viewDidLoad() {
         
@@ -70,26 +70,19 @@ class AttendanceVC: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(AttendanceVC.userCheckIN(notification:)), name: Notification.Name("NotificationCheckIn"), object: nil)
         
         NotificationCenter.default.addObserver(self, selector: #selector(AttendanceVC.userCheckOut(notification:)), name: Notification.Name("NotificationCheckOut"), object: nil)
-                        
+        
     }
     
     
     override func viewWillAppear(_ animated: Bool) {
         
         super.viewWillAppear(animated)
-        print("viewWillAppear called")
-        
-      //  LocationManager.shared.getLocation()
         fetchLocation()
     }
     
     
     func fetchLocation() {
         
-//        FLocationManager.shared.stop()
-//        
-//        self.indicatorView.startAnimating()
-//        self.view.isUserInteractionEnabled = false
         
         FLocationManager.shared.start { [self] (info) in
             
@@ -104,7 +97,7 @@ class AttendanceVC: UIViewController {
                 
                 GenericMethods.saveCheckOutLatitude(lat: info.latitude ?? 0.0)
                 GenericMethods.saveCheckOutLongitude(long: info.longitude ?? 0.0)
-             
+                
                 let address = (info.address ?? "") + " " + (info.city ?? "") + " " + (info.zip ?? "") + " " + (info.country ?? "")
                 GenericMethods.saveLocationAddress(location: address)
                 
@@ -119,16 +112,12 @@ class AttendanceVC: UIViewController {
         }
         
     }
-      
+    
     override func viewWillDisappear(_ animated: Bool) {
         
-        print("viewWillDisappear*** of Attendance Called")
         super.viewWillDisappear(animated)
         FLocationManager.shared.stop()
-//        DispatchQueue.main.async { [self] in
-//            self.indicatorView.stopAnimating()
-//            self.view.isUserInteractionEnabled = true
-//        }
+        
     }
     
     private func activityIndicator(style: UIActivityIndicatorView.Style = .medium,
@@ -150,8 +139,6 @@ class AttendanceVC: UIViewController {
     @objc func userCheckIN(notification: Notification) {
         
         // Take Action on Notification
-        print("Check IN Called")
-        
         DispatchQueue.main.async { [self] in
             buttonStatus = "CHECK OUT"
             self.checkInOutBtn.setTitle(self.buttonStatus, for: .normal)
@@ -164,7 +151,6 @@ class AttendanceVC: UIViewController {
     @objc func userCheckOut(notification: Notification) {
         
         // Take Action on Notification
-        print("Check Out Called")
         DispatchQueue.main.async { [self] in
             buttonStatus = "CHECK IN"
             checkInOutBtn.setTitle(buttonStatus, for: .normal)
@@ -173,14 +159,16 @@ class AttendanceVC: UIViewController {
         }
         
     }
-        
-
+    
+    
     //CHECK STATUS
     
     @IBAction func checkOutBtnClick(_ sender: Any) {
         
         let loginStatus = GenericMethods.getLoginStatus()
-        if loginStatus == "True"{ //Show user Check In
+        let checkIncheckOutStatus = GenericMethods.getCheckInCheckOutStatus()
+        if checkIncheckOutStatus == "CHECK OUT" {
+            //  if loginStatus == "True"  { //Show user Check In
             
             let coordinate₀ = CLLocation(latitude: GenericMethods.getCheckInLat(), longitude: GenericMethods.getCheckInLong())
             let coordinate₁ = CLLocation(latitude: GenericMethods.getCheckOutLat(), longitude: GenericMethods.getCheckOutLong())
@@ -195,7 +183,10 @@ class AttendanceVC: UIViewController {
                 self.checkforCheckOutPopup()
             }
             
-        } else{
+        }
+        
+        // }
+        else{
             
             //CHECK IN
             
@@ -214,13 +205,13 @@ class AttendanceVC: UIViewController {
                 }
                 
                 FLocationManager.shared.stop()
-
+                
                 
             }
             
             
         }
-            
+        
     }
     
     
@@ -341,7 +332,7 @@ class AttendanceVC: UIViewController {
         self.present(popOverVC!, animated: true)
         
     }
-        
+    
     @objc func handleLeavesViewTap(_ sender: UITapGestureRecognizer? = nil) {
         
         let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ManageLeavesViewController") as? ManageLeavesVC
@@ -385,7 +376,7 @@ class AttendanceVC: UIViewController {
             currentAMPMLbl.text = currentMins[1]
             
         }
-                
+        
         currentDayNameLbl.textColor = GenericColours.myCustomGreen
         currentDayNameLbl.text = Date().dayOfWeek()!
         
@@ -395,52 +386,21 @@ class AttendanceVC: UIViewController {
         currentLocationLbl.textColor = GenericColours.myCustomGreen
         currentLocationLbl.text = GenericMethods.getLocationAddress()
         
-        // checkInOutBtn.titleLabel?.font =  UIFont.boldSystemFont(ofSize: 17)
         checkInOutBtn.layer.cornerRadius = 6
         checkInOutBtn.backgroundColor = GenericColours.myCustomGreen
-      //  checkInOutBtn.setTitleColor(.white, for: .normal)
         
         
-        let loginStatus = GenericMethods.getLoginStatus()
-        if loginStatus == "True"{ //Show user Check In
-            buttonStatus = "CHECK OUT"
+        let checkIncheckOutStatus = GenericMethods.getCheckInCheckOutStatus()
+        if checkIncheckOutStatus == "CHECK IN"{ //Show user Check In
+            buttonStatus = "CHECK IN"
             GenericMethods.saveCheckInCheckOutStatus(status: buttonStatus)
             checkInOutBtn.setTitle(buttonStatus, for: .normal)
             
         } else{
-            buttonStatus = "CHECK IN"
+            buttonStatus = "CHECK OUT"
             GenericMethods.saveCheckInCheckOutStatus(status: buttonStatus)
             checkInOutBtn.setTitle(buttonStatus, for: .normal)
         }
-        
-        
-        
-        //        let defaults = UserDefaults.standard
-        //        if defaults.bool(forKey: "First Launch") == true {
-        //
-        //            print ("Second+")
-        //            //Run code after first Launch
-        //            defaults.set (true, forKey: "First Launch")
-        //
-        //
-        //            let status = GenericMethods.getCheckInCheckOutStatus()
-        //            buttonStatus = status
-        //            checkInOutBtn.setTitle(buttonStatus, for: .normal)
-        //            checkInOutBtn.titleLabel?.font =  UIFont.boldSystemFont(ofSize: 17)
-        //
-        //
-        //
-        //        }
-        //        else{ //FIRST TIME
-        //
-        //            defaults.set (true, forKey: "First Launch")
-        //
-        //            buttonStatus = "CHECK IN"
-        //            GenericMethods.saveCheckInCheckOutStatus(status: buttonStatus)
-        //
-        //        }
-        
-        
         
     }
     

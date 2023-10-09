@@ -78,10 +78,8 @@
 		7DAF3D2C2AC68CD500D049E8 /* EarlyCheckOutPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF3D2B2AC68CD500D049E8 /* EarlyCheckOutPopUpVC.swift */; };
 		7DAF3D2E2AC6B7DC00D049E8 /* CheckInPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF3D2D2AC6B7DC00D049E8 /* CheckInPopUpVC.swift */; };
 		7DB5C38C2ABCAC2600949211 /* AttendanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5C38B2ABCAC2600949211 /* AttendanceVC.swift */; };
-		7DBA06982AB4360E00763E4C /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA06972AB4360E00763E4C /* RadioButton.swift */; };
 		7DBA069A2AB45F5A00763E4C /* AttendenceRegularizationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA06992AB45F5A00763E4C /* AttendenceRegularizationVM.swift */; };
 		7DBA069C2AB45FA700763E4C /* AttendenceRegularizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA069B2AB45FA700763E4C /* AttendenceRegularizationModel.swift */; };
-		7DBA069E2AB4713E00763E4C /* datePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA069D2AB4713E00763E4C /* datePicker.swift */; };
 		7DBA06A12AB47F2000763E4C /* ApplyNewLeaveVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA06A02AB47F2000763E4C /* ApplyNewLeaveVM.swift */; };
 		7DBA06A32AB47F3900763E4C /* ApplyNewLeaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA06A22AB47F3900763E4C /* ApplyNewLeaveModel.swift */; };
 		7DBA06B82AB8112700763E4C /* LeaveBalanceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA06B72AB8112700763E4C /* LeaveBalanceCollectionViewCell.swift */; };
@@ -200,10 +198,8 @@
 		7DAF3D2B2AC68CD500D049E8 /* EarlyCheckOutPopUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlyCheckOutPopUpVC.swift; sourceTree = "<group>"; };
 		7DAF3D2D2AC6B7DC00D049E8 /* CheckInPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInPopUpVC.swift; sourceTree = "<group>"; };
 		7DB5C38B2ABCAC2600949211 /* AttendanceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceVC.swift; sourceTree = "<group>"; };
-		7DBA06972AB4360E00763E4C /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		7DBA06992AB45F5A00763E4C /* AttendenceRegularizationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceRegularizationVM.swift; sourceTree = "<group>"; };
 		7DBA069B2AB45FA700763E4C /* AttendenceRegularizationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceRegularizationModel.swift; sourceTree = "<group>"; };
-		7DBA069D2AB4713E00763E4C /* datePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datePicker.swift; sourceTree = "<group>"; };
 		7DBA06A02AB47F2000763E4C /* ApplyNewLeaveVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyNewLeaveVM.swift; sourceTree = "<group>"; };
 		7DBA06A22AB47F3900763E4C /* ApplyNewLeaveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyNewLeaveModel.swift; sourceTree = "<group>"; };
 		7DBA06B72AB8112700763E4C /* LeaveBalanceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaveBalanceCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -551,8 +547,6 @@
 				7D9D7C672AAED2B900AD56F6 /* SwiftConstants.swift */,
 				7DA593042AAEF4C200240EF6 /* GenericMethods.swift */,
 				7D1B079F2AB17770003609B6 /* FLocationManager.swift */,
-				7DBA06972AB4360E00763E4C /* RadioButton.swift */,
-				7DBA069D2AB4713E00763E4C /* datePicker.swift */,
 			);
 			path = Generics;
 			sourceTree = "<group>";
@@ -950,12 +944,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD92DDB2ABB1A2200703EF3 /* NotificationVC.swift in Sources */,
-				7DBA06982AB4360E00763E4C /* RadioButton.swift in Sources */,
 				7DA593072AAF19D300240EF6 /* LoginViewVC.swift in Sources */,
 				7DBA06B82AB8112700763E4C /* LeaveBalanceCollectionViewCell.swift in Sources */,
 				7D35ED042AAADA7400057561 /* MainViewController.swift in Sources */,
 				7DD92DE22ABB1CAD00703EF3 /* NotificationTableViewCell.swift in Sources */,
-				7DBA069E2AB4713E00763E4C /* datePicker.swift in Sources */,
 				7DD92DD62ABB090200703EF3 /* MyProfileModel.swift in Sources */,
 				7DA593132AAF3BE100240EF6 /* AttendanceViewModel.swift in Sources */,
 				7D483A0B2AD300DF00C0F70E /* LocationMang.swift in Sources */,

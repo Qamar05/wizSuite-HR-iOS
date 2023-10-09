@@ -155,12 +155,9 @@ class GenericMethods {
         return checkOutLong
         
     }
-    
-    
-    
+        
     
     @objc static func getCurrentHours() -> String { //For Checkout / checkin
-        
         let date = Date()
         let formatter = DateFormatter()
         formatter.dateFormat = "hh:mm a"

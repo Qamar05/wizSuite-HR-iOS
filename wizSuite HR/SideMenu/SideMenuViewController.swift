@@ -32,7 +32,6 @@ class SideMenuViewController: UIViewController {
         SideMenuModel(icon: UIImage(systemName: "play.rectangle.on.rectangle")!, title: "Terms & Condition"),
         SideMenuModel(icon: UIImage(systemName: "questionmark.bubble.fill")!, title: "Support"),
         SideMenuModel(icon: UIImage(systemName: "power")!, title: "Logout"),
-
     ]
     
     override func viewDidLoad() {
@@ -62,10 +61,6 @@ class SideMenuViewController: UIViewController {
         // Update TableView with the data
         self.sideMenuTableView.reloadData()
         
-        
-        print("UserName***",GenericMethods.getUsername())
-        print("Designation***",GenericMethods.getDesignation())
-        
         profileImgView.layer.cornerRadius = profileImgView.frame.size.width / 2
 
         self.profileNameLbl.text = GenericMethods.getUsername()
@@ -89,6 +84,7 @@ extension SideMenuViewController: UITableViewDelegate {
 // MARK: - UITableViewDataSource
 
 extension SideMenuViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.menu.count
     }
@@ -113,5 +109,6 @@ extension SideMenuViewController: UITableViewDataSource {
             tableView.deselectRow(at: indexPath, animated: true)
         }
     }
+    
 }
 

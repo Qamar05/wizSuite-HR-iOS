@@ -61,17 +61,10 @@ struct NetworkConstant {
 }
 
     
-//rgb(225, 135, 135)
 
-//status bar #327524
-//golden #F0AF08 //Attendance Regularisation
-//red #BF3743    // Absent, cancle button on leave
-//blue #2041B6    // Remaining Leaves
-//purple #C004A7    // Worked Remotely and Leave Title
 
 
 struct GenericColours {
-    
     
     static let navigationGreenColor = UIColor(red: 89/255, green: 190/255, blue: 69/255, alpha: 1.0)
     static let myCustomGreen = UIColor(red: 89/255, green: 190/255, blue: 69/255, alpha: 1.0)
@@ -80,11 +73,6 @@ struct GenericColours {
     static let yellowColor = UIColor(red: 254/255, green: 201/255, blue: 76/255, alpha: 1.0)
     static let blueColour = UIColor(red: 32/255, green: 65/255, blue: 182/255, alpha: 1.0)
     static let purpleColour = UIColor(red: 192/255, green: 4/255, blue: 167/255, alpha: 1.0)
-
-    
-    
-//    blue #2041B6    // Remaining Leaves
-//    purple #C004A7    // Worked Remotely and Leave Title
 
 }
     

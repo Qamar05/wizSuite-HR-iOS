@@ -145,39 +145,24 @@ class SupportVC: UIViewController {
     
     @IBAction func reportIssueBtnClick(_ sender: Any) {
         
+        if headingTextView.text.isEmpty{
+            self.view.makeToast("Please add Heading")
+            return
+        }
+        
+        else if descTextView.text.isEmpty{
+            self.view.makeToast("Please add Heading")
+            return
+            
+        }
+        else if uploadTextView.text.isEmpty{
+            self.view.makeToast("Please add Heading")
+            return
+        }
+        
         uploadImageToServer()
         
-        //        indicatorView.startAnimating()
-        //
-        //        let token = GenericMethods.getToken()
-        //        let heading = headingTextView.text
-        //        let description = descTextView.text
-        //       // let photo =
-        //
-        //        let bodyParams = ["token": token,"heading": "kkkj","description": "fffff","photo": "hhhh"]
-        //
-        //        viewModel?.fetchSupportDetails(body: bodyParams, completionHandler: { [weak self] (data , error) in
-        //
-        //            if let model = data {
-        //                DispatchQueue.main.async {
-        //                    self?.view.makeToast("Your report submitted successfully, we will fix this soon")
-        //                }
-        //
-        //            }
-        //            else{
-        //                DispatchQueue.main.async {
-        //                    self?.view.makeToast(error?.localizedDescription)
-        //                }
-        //            }
-        //            DispatchQueue.main.async {
-        //                self?.indicatorView.stopAnimating()
-        //            }
-        //
-        //        })
-        
-        
     }
-    
     
     
     
