@@ -11,9 +11,15 @@ typealias completionHandler = (_ data: LoginModel?,_ error: Error?) -> Void
 
 class LoginViewVM {
         
-     func fetchLoginData(completionHandler: @escaping completionHandler ) {
+    var model: LoginModel?
+    
         
-        let body = ["username": "vibhuti.gupta@vmstechs.com","password": "Atharv@07"]
+    func fetchLoginData(body: [String: Any], completionHandler: @escaping completionHandler ) {
+        
+//        let body = ["username": "qamar@vmstechs.com","password": "test@123"]
+        
+        print("BODY ITEMS:****",body)
+        
         let bodyData = try? JSONSerialization.data(
             withJSONObject: body,
             options: []
@@ -27,7 +33,7 @@ class LoginViewVM {
         request.httpBody = bodyData
         
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.setValue(GenericMethods.getToken(), forHTTPHeaderField: "Authorization") // Most likely you want to add some token here
+        request.setValue(GenericMethods.getAuthorisationToken(), forHTTPHeaderField: "Authorization") // Most likely you want to add some token here
         
         let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
             if let error = error {
@@ -38,16 +44,15 @@ class LoginViewVM {
             } else if let data = data {
                 
                 if let loginData = try? JSONDecoder().decode(LoginModel.self, from: data) {
-                  
+                    
                     print(loginData)
                     
-                    self.saveData(loginData: loginData)
+                    self.model = loginData
                     
-                    completionHandler(loginData, nil)
-                                        
+                    completionHandler(self.model, nil)
+                    
                 } else {
                     completionHandler(nil, nil)
-
                     print("Invalid Response")
                 }
                 // Handle HTTP request response
@@ -63,14 +68,18 @@ class LoginViewVM {
     
     func saveData(loginData: LoginModel){
         
-        self.saveToken(token:loginData.token)
-        self.saveUsername(firstName: loginData.firstName, lastName:loginData.lastName)
-        self.saveDesignation(designation: loginData.designation)
-        self.saveProfilePic(profilePic: loginData.photo)
+        self.saveToken(token:loginData.token ?? "")
+        self.saveUsername(firstName: loginData.firstName ?? "", lastName:loginData.lastName ?? "")
+        self.saveDesignation(designation: loginData.designation ?? "")
+        self.saveProfilePic(profilePic: loginData.photo ?? "")
+        self.saveLoginStatus(loginStatus: loginData.loginStatus ?? "")
+        self.saveUserID(userID: loginData.id ?? "")
     }
    
     
     func saveToken(token : String){
+        
+        print("token****",token) //cd558ae1345f75b559a410bff6a01ed9
         
         let defaults = UserDefaults.standard
         defaults.set(token, forKey: "TOKEN")
@@ -84,6 +93,7 @@ class LoginViewVM {
         defaults.set(userName, forKey: "USERNAME")
         defaults.synchronize()
     }
+    
     
     func saveDesignation(designation : String){
         
@@ -99,6 +109,20 @@ class LoginViewVM {
         defaults.synchronize()
     }
     
+    
+    func saveLoginStatus(loginStatus: String){
+        
+        let defaults = UserDefaults.standard
+        defaults.set(loginStatus, forKey: "LOGINSTATUS")
+        defaults.synchronize()
+    }
+    
+    func saveUserID(userID: String){
+        
+        let defaults = UserDefaults.standard
+        defaults.set(userID, forKey: "USERID")
+        defaults.synchronize()
+    }
     
     
     

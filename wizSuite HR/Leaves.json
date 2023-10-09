@@ -1,0 +1,173 @@
+{
+    "message": "Leave History Found.",
+    "status": true,
+    "marital_status": "Married",
+    "Approved_Leave": "21",
+    "Pending_Leave": "22",
+    "remaining": [
+        {
+            "id": "2",
+            "leave_name": "Casual",
+            "leave_days": "9",
+            "remaining_days": "4",
+            "payment_type": "Paid",
+            "leave_status": "Yes"
+        },
+        {
+            "id": "4",
+            "leave_name": "Earned",
+            "leave_days": "12",
+            "remaining_days": "6",
+            "payment_type": "Paid",
+            "leave_status": "Yes"
+        },
+        {
+            "id": "7",
+            "leave_name": "Paternity",
+            "leave_days": "10",
+            "remaining_days": "0",
+            "payment_type": "Paid",
+            "leave_status": "Yes"
+        },
+        {
+            "id": "8",
+            "leave_name": "Bereavement",
+            "leave_days": "1",
+            "remaining_days": "1",
+            "payment_type": "Paid",
+            "leave_status": "Yes"
+        }
+    ],
+    "data": [
+        {
+            "id": "280",
+            "leave_type": "Casual",
+            "date_from": "2023-09-01",
+            "date_to": "2023-09-01",
+            "days_count": "1",
+            "reason": "Son is not well.",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "Prateek Punj",
+            "created_at": "2023-09-01 03:23:16",
+            "userid": "61"
+        },
+        {
+            "id": "206",
+            "leave_type": "Casual",
+            "date_from": "2023-06-30",
+            "date_to": "2023-06-30",
+            "days_count": "1",
+            "reason": "Leave for Eid-ul-Adha ",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "Prateek Punj",
+            "created_at": "2023-06-28 14:06:17",
+            "userid": "61"
+        },
+        {
+            "id": "193",
+            "leave_type": "Earned",
+            "date_from": "2023-06-21",
+            "date_to": "2023-06-21",
+            "days_count": "1",
+            "reason": "Extended leaves because flight was missed",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "Prateek Punj",
+            "created_at": "2023-06-26 13:00:45",
+            "userid": "61"
+        },
+        {
+            "id": "158",
+            "leave_type": "Earned",
+            "date_from": "2023-06-19",
+            "date_to": "2023-06-20",
+            "days_count": "2",
+            "reason": "As I discussed I am going to Srinagar.",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "Prateek Punj",
+            "created_at": "2023-06-12 14:05:47",
+            "userid": "61"
+        },
+        {
+            "id": "145",
+            "leave_type": "Earned",
+            "date_from": "2023-05-30",
+            "date_to": "2023-05-31",
+            "days_count": "2",
+            "reason": "Sick leave.",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "Prateek Punj",
+            "created_at": "2023-05-30 15:47:11",
+            "userid": "61"
+        },
+        {
+            "id": "91",
+            "leave_type": "Casual",
+            "date_from": "2023-02-17",
+            "date_to": "2023-02-17",
+            "days_count": "1",
+            "reason": "Casual",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "",
+            "created_at": "2023-04-26 11:45:29",
+            "userid": "61"
+        },
+        {
+            "id": "90",
+            "leave_type": "Paternity",
+            "date_from": "2023-01-16",
+            "date_to": "2023-01-25",
+            "days_count": "10",
+            "reason": "Paternity",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "",
+            "created_at": "2023-04-26 11:37:45",
+            "userid": "61"
+        },
+        {
+            "id": "58",
+            "leave_type": "Casual",
+            "date_from": "2023-04-24",
+            "date_to": "2023-04-24",
+            "days_count": "1",
+            "reason": "Hello sir\nI am glad to inform you that it will be Eid on 23rd of April, so I am requesting you to allow me leave for Monday 24th \n\nI will be thankful to you ",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "Prateek Punj",
+            "created_at": "2023-04-17 10:02:22",
+            "userid": "61"
+        },
+        {
+            "id": "57",
+            "leave_type": "Earned",
+            "date_from": "2023-04-21",
+            "date_to": "2023-04-21",
+            "days_count": "1",
+            "reason": "hello sir,\n\nAs it will be the last Friday of the Holy Month of Ramzan and I have to offer prayers, so I am requesting you to take off on this day.",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "Prateek Punj",
+            "created_at": "2023-04-17 09:58:00",
+            "userid": "61"
+        },
+        {
+            "id": "34",
+            "leave_type": "Casual",
+            "date_from": "2023-03-20",
+            "date_to": "2023-03-20",
+            "days_count": "1",
+            "reason": "Hi sir\nDue to food poisoning I am not able to report at the office today.\nkindly allow me leave for today.",
+            "leavestatus": "Approved",
+            "employee_type": "User",
+            "StatusChange_by": "",
+            "created_at": "2023-03-20 04:12:01",
+            "userid": "61"
+        }
+    ]
+}

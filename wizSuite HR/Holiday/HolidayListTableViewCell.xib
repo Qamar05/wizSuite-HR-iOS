@@ -10,47 +10,73 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HolidayListTableViewCell" rowHeight="94" id="KGk-i7-Jjw" customClass="HolidayListTableViewCell" customModule="wizSuite_HR" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HolidayListTableViewCell" rowHeight="150" id="KGk-i7-Jjw" customClass="HolidayListTableViewCell" customModule="wizSuite_HR" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="378" height="94"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" userLabel="ContentView">
                 <rect key="frame" x="0.0" y="0.0" width="378" height="94"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mBt-MT-AHF">
-                        <rect key="frame" x="0.0" y="0.0" width="70" height="94"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zA0-yo-7cL">
+                        <rect key="frame" x="10" y="10" width="358" height="74"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="njg-Xk-r4E">
+                                <rect key="frame" x="0.0" y="0.0" width="75" height="74"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 JAN" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWJ-fP-Nd7">
+                                        <rect key="frame" x="9.3333333333333321" y="27" width="56.333333333333357" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="FWo-cY-lnG"/>
+                                    <constraint firstItem="QWJ-fP-Nd7" firstAttribute="centerX" secondItem="njg-Xk-r4E" secondAttribute="centerX" id="bnm-oz-kOr"/>
+                                    <constraint firstItem="QWJ-fP-Nd7" firstAttribute="centerY" secondItem="njg-Xk-r4E" secondAttribute="centerY" id="cC5-wA-LwU"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Republic Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0p-7e-VKK">
+                                <rect key="frame" x="85" y="14.666666666666668" width="100" height="21.000000000000004"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thursday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDe-d7-Fqw">
+                                <rect key="frame" x="85" y="40.666666666666664" width="72" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="70" id="h0w-Nb-inV"/>
+                            <constraint firstItem="s0p-7e-VKK" firstAttribute="leading" secondItem="njg-Xk-r4E" secondAttribute="trailing" constant="10" id="1wO-O8-2Eu"/>
+                            <constraint firstItem="PDe-d7-Fqw" firstAttribute="leading" secondItem="s0p-7e-VKK" secondAttribute="leading" id="NBe-oZ-kj5"/>
+                            <constraint firstItem="njg-Xk-r4E" firstAttribute="top" secondItem="zA0-yo-7cL" secondAttribute="top" id="W2K-FR-xEb"/>
+                            <constraint firstItem="PDe-d7-Fqw" firstAttribute="top" secondItem="s0p-7e-VKK" secondAttribute="bottom" constant="5" id="eaU-BF-31x"/>
+                            <constraint firstAttribute="bottom" secondItem="njg-Xk-r4E" secondAttribute="bottom" id="f0w-qI-2gY"/>
+                            <constraint firstItem="njg-Xk-r4E" firstAttribute="leading" secondItem="zA0-yo-7cL" secondAttribute="leading" id="pNK-yf-3eh"/>
+                            <constraint firstItem="s0p-7e-VKK" firstAttribute="centerY" secondItem="njg-Xk-r4E" secondAttribute="centerY" constant="-12" id="wEL-Zq-Ck4"/>
                         </constraints>
                     </view>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Republic Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOD-zP-e7J">
-                        <rect key="frame" x="87" y="14" width="100" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thursday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQx-3F-5FJ">
-                        <rect key="frame" x="87" y="43" width="72" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstItem="mBt-MT-AHF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="JlT-qr-qhu"/>
-                    <constraint firstAttribute="bottom" secondItem="mBt-MT-AHF" secondAttribute="bottom" id="b4D-FG-Dr2"/>
-                    <constraint firstItem="mBt-MT-AHF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wlB-N2-5PY"/>
+                    <constraint firstAttribute="trailing" secondItem="zA0-yo-7cL" secondAttribute="trailing" constant="10" id="D0W-1R-11c"/>
+                    <constraint firstItem="zA0-yo-7cL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Eub-jn-YUs"/>
+                    <constraint firstAttribute="bottom" secondItem="zA0-yo-7cL" secondAttribute="bottom" constant="10" id="XCp-fY-fRJ"/>
+                    <constraint firstItem="zA0-yo-7cL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="dBo-aW-bsY"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="backView" destination="H2p-sc-9uM" id="GMp-ME-82E"/>
-                <outlet property="holidayDayLbl" destination="cQx-3F-5FJ" id="ah2-WA-mT3"/>
-                <outlet property="holidayNameLbl" destination="TOD-zP-e7J" id="1S4-Mb-WWS"/>
-                <outlet property="holidaySideView" destination="mBt-MT-AHF" id="W6P-vv-Eii"/>
+                <outlet property="backView" destination="zA0-yo-7cL" id="k3e-hF-yHc"/>
+                <outlet property="holidayDate" destination="QWJ-fP-Nd7" id="O5I-cx-Tgd"/>
+                <outlet property="holidayDayLbl" destination="PDe-d7-Fqw" id="8AW-zA-H0a"/>
+                <outlet property="holidayNameLbl" destination="s0p-7e-VKK" id="A8E-1S-5yL"/>
+                <outlet property="holidaySideView" destination="njg-Xk-r4E" id="8X6-kS-daL"/>
             </connections>
             <point key="canvasLocation" x="109.9236641221374" y="37.323943661971832"/>
         </tableViewCell>
@@ -58,6 +84,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
