@@ -26,8 +26,6 @@ class MainViewController: UIViewController{
         super.viewDidLoad()
         
         
-        //self.setNavBarAppearance(tintColor: .white, barColor: UIColor(#colorLiteral(red: 0.737254902, green: 0.1294117647, blue: 0.2941176471, alpha: 1)))
-
        self.setNavBarAppearance(tintColor: .white, barColor: GenericColours.myCustomGreen)
 
         
@@ -75,7 +73,6 @@ class MainViewController: UIViewController{
         // Default Main View Controller
         showViewController(viewController: UINavigationController.self, storyboardId: "AttendanceNavID")
         
-       // self.view.backgroundColor = .yellow
         
     }
     

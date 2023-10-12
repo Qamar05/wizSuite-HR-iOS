@@ -9,15 +9,14 @@ import UIKit
 
 class WFHCheckInPopUpVC: UIViewController {
     
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: AttendanceViewModel?
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: AttendanceViewModel?
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
         self.showAnimate()
-        
     }
     
     

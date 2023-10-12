@@ -29,11 +29,11 @@ class AttendanceVC: UIViewController {
     @IBOutlet var holidayImgView: UIImageView!
     @IBOutlet var regularisationImgView: UIImageView!
     
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: AttendanceViewModel?
-    var buttonStatus: String = "CHECK IN"
-    var isAppInstalledFirstTime: Bool = true
-    var locationManager : CLLocationManager! = nil
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: AttendanceViewModel?
+    private var buttonStatus: String = "CHECK IN"
+    private var isAppInstalledFirstTime: Bool = true
+    private var locationManager : CLLocationManager! = nil
     
     
     override func viewDidLoad() {

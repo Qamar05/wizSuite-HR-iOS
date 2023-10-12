@@ -11,7 +11,6 @@ class ForgotPasswordVC: UIViewController {
     
     @IBOutlet weak var emailAddress: UITextField!
     @IBOutlet weak var sendOTPButton: UIButton!
-    
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var sendOTPButtonBottomConstraint: NSLayoutConstraint!
     var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
@@ -204,7 +203,6 @@ class ForgotPasswordVC: UIViewController {
                     vc?.emailAddress = emailStr
                     self?.navigationController?.pushViewController(vc!, animated: true)
                 }
-                
                 
             } else{
                 DispatchQueue.main.async {

@@ -44,9 +44,7 @@ class LeaveBalanceCollectionViewCell: UICollectionViewCell {
             leaveAvailedLbl.text = ("Availed : " +  String(availedDays))
             
         }
-     
-//        let availedLeaves = totalLeaveDays - remainingDays
-        
+             
         
         leaveRemainingLbl.text = ("Remaining : " +  (model.remainingDays ?? "0") )
                

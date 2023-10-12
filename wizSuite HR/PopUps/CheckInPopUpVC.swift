@@ -13,8 +13,8 @@ class CheckInPopUpVC: UIViewController {
     @IBOutlet var currentDateLbl: UILabel!
     @IBOutlet var commentsTextView: UITextView!
     @IBOutlet var checkInBtn: UIButton!
-    var viewModel: AttendanceViewModel?
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: AttendanceViewModel?
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
 
     
     override func viewDidLoad() {

@@ -12,8 +12,8 @@ class CheckOutPopUpVC: UIViewController {
     @IBOutlet var currentTime: UILabel!
     @IBOutlet var currentDate: UILabel!
     @IBOutlet var noticeLbl: UILabel!
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: AttendanceViewModel?
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: AttendanceViewModel?
     
     
     override func viewDidLoad() {

@@ -52,13 +52,6 @@ struct LeaveBalanceModel: Decodable{
     
     enum CodingKeys: String, CodingKey{
         
-//        "id": "2",
-//                    "leave_name": "Casual",
-//                    "leave_days": "9",
-//                    "remaining_days": "4",
-//                    "payment_type": "Paid",
-//                    "leave_status": "Yes"
-        
         case id = "id"
         case leaveName = "leave_name"
         case leaveDays = "leave_days"

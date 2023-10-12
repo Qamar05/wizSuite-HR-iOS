@@ -58,10 +58,6 @@ class LeavesHistoryTableViewCell: UITableViewCell{
     
     func bindTableViewData(indexPath: IndexPath, withModel model: LeavesAppliedModel, leaveModel:LeavesHistoryModel?){
         
-        guard let manageLeaveModel = leaveModel else {
-            return
-        }
-        
         self.indexPath = indexPath
         
         configureAppliedDate(withModel: model)
@@ -124,7 +120,6 @@ class LeavesHistoryTableViewCell: UITableViewCell{
             let timeFromDate = dateFormatter.string(from: dateFromStr )
             appliedOnLbl.text = "Applied on:" + " " + timeFromDate
         }
-        
         
     }
     

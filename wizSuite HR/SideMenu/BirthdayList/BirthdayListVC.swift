@@ -9,17 +9,15 @@ import UIKit
 
 class BirthdayListVC: UIViewController {
     
-    @IBOutlet var tableView: UITableView!
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: BirthdayListVM?
-    
+    @IBOutlet var tableView: UITableView!    
     @IBOutlet var sideMenuBtn: UIBarButtonItem!
+    
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: BirthdayListVM?
     
     override func viewDidLoad() {
         
-        super.viewDidLoad()
-        // self.view.backgroundColor = .purple
-       
+        super.viewDidLoad()       
 
         viewModel = BirthdayListVM()
         registerTableViewCells()

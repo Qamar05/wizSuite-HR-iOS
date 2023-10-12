@@ -15,29 +15,25 @@ class ApplyNewLeaveVC: UIViewController {
     @IBOutlet var applyLeavesBtn: UIButton!
     @IBOutlet var leavesTextField: UITextField!
     
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    let screenWidth = UIScreen.main.bounds.width
-    var pickerToolbar: UIToolbar?
-    var datePicker :UIDatePicker!
-    var viewModel: ApplyNewLeaveVM?
-    var selectedLeave: String = ""
-    var leavesList :[String] = []
-    var remaningLeavesLocalCounter: Int = 0
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private let screenWidth = UIScreen.main.bounds.width
+    private var pickerToolbar: UIToolbar?
+    private var datePicker :UIDatePicker!
+    private var viewModel: ApplyNewLeaveVM?
+    private var selectedLeave: String = ""
+    private var leavesList :[String] = []
+    private var remaningLeavesLocalCounter: Int = 0
     private var localDays = ""
     private var noofDaysCounter: Int = 0
-    var leaveType: String = ""
+    private  var leaveType: String = ""
+    private var fromDate = Date()
+    private var toDate = Date()
+    private var leavetext : String = ""
     
-    
-    var fromDate = Date()
-    var toDate = Date()
-    var leavetext : String = ""
-    
-   
-
-    
+       
     //["Casual    (0) Days", "Earned    (0) Days", "Maternity Leave    (180) Days", "Bereavement    (1) Days"]
     
-    var dateFormatter: DateFormatter = {
+    private var dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateFormat = "EE, MMM d, yyyy"
         return formatter
@@ -82,8 +78,6 @@ class ApplyNewLeaveVC: UIViewController {
         
         
         let count = leavesModel?.model?.remaining?.count ?? 0
-        let remLeaves = leavesModel?.model?.remaining
-        
         for item in 0..<count {
             
             if let leaveType = leavesModel?.model?.remaining?[item], let leavesRemaining = leaveType.remainingDays {
@@ -91,8 +85,6 @@ class ApplyNewLeaveVC: UIViewController {
                 leavesList.append(casualLeaves)
             }
         }
-        
-
         
         
     }
@@ -226,7 +218,7 @@ class ApplyNewLeaveVC: UIViewController {
         if leaveType == "Casual" {
             
             let remLeavesModel = leavesModel?.model?.remaining?[0] as? LeaveBalanceModel
-            var leaveDays = remLeavesModel?.leaveDays ?? ""
+            let leaveDays = remLeavesModel?.leaveDays ?? ""
             
             let leaveDaysInt = Int(leaveDays) ?? 0
             
@@ -240,7 +232,7 @@ class ApplyNewLeaveVC: UIViewController {
         } else if leaveType == "Earned" {
             
             let remLeavesModel = leavesModel?.model?.remaining?[1] as? LeaveBalanceModel
-            var leaveDays = remLeavesModel?.leaveDays ?? ""
+            let leaveDays = remLeavesModel?.leaveDays ?? ""
             
             let leaveDaysInt = Int(leaveDays) ?? 0
             
@@ -255,7 +247,7 @@ class ApplyNewLeaveVC: UIViewController {
         else if leaveType == "Maternity Leave"{
             
             let remLeavesModel = leavesModel?.model?.remaining?[2] as? LeaveBalanceModel
-            var leaveDays = remLeavesModel?.leaveDays ?? ""
+            let leaveDays = remLeavesModel?.leaveDays ?? ""
             
             let leaveDaysInt = Int(leaveDays) ?? 0
             
@@ -269,7 +261,7 @@ class ApplyNewLeaveVC: UIViewController {
         else if leaveType == "Paternity Leave"{
             
             let remLeavesModel = leavesModel?.model?.remaining?[2] as? LeaveBalanceModel
-            var leaveDays = remLeavesModel?.leaveDays ?? ""
+            let leaveDays = remLeavesModel?.leaveDays ?? ""
             
             let leaveDaysInt = Int(leaveDays) ?? 0
             
@@ -282,7 +274,7 @@ class ApplyNewLeaveVC: UIViewController {
         }
         else if leaveType == "Paternity Leave" {
             let remLeavesModel = leavesModel?.model?.remaining?[2] as? LeaveBalanceModel
-            var leaveDays = remLeavesModel?.leaveDays ?? ""
+            let leaveDays = remLeavesModel?.leaveDays ?? ""
             
             let leaveDaysInt = Int(leaveDays) ?? 0
             

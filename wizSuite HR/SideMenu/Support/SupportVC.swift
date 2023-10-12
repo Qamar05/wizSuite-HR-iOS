@@ -30,8 +30,8 @@ class SupportVC: UIViewController {
     @IBOutlet var uploadTextView: UITextView!
     @IBOutlet var reportIssueBtn: UIButton!
     var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: SupportVM?
-    var supportImage = UIImage()
+    private var viewModel: SupportVM?
+    private var supportImage = UIImage()
     
     
     override func viewDidLoad() {

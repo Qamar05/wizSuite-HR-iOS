@@ -19,10 +19,10 @@ class LoginViewVC: UIViewController {
     @IBOutlet weak var visibilityIcon: UIButton!
     @IBOutlet var scrollView: UIScrollView!
     
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: LoginViewVM?
-    var iconClick = false
-    var rememberMeClick = false
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: LoginViewVM?
+    private var iconClick = false
+    private var rememberMeClick = false
     
     
     override func viewDidLoad() {
@@ -70,7 +70,6 @@ class LoginViewVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: true)
-        //self.navigationController?.navigationBar.backgroundColor = .green
         
     }
     
@@ -146,7 +145,6 @@ class LoginViewVC: UIViewController {
             
         }
         rememberMeClick = !rememberMeClick
-        print("rememberMeClick***",rememberMeClick)
     }
     
     @IBAction func toggleVisibilityIcon(_ sender: Any) {
@@ -167,16 +165,12 @@ class LoginViewVC: UIViewController {
     
     @IBAction func signINBtnClick(_ sender: Any) {
         
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let mainViewController = storyboard.instantiateViewController(identifier: "MainViewController")
-//        self.navigationController?.pushViewController(mainViewController, animated: true)
-//        return
-
-//        
-//        if (!validateUser()) {
-//            return
-//        }
-//        
+        
+        
+        if (!validateUser()) {
+            return
+        }
+        
         indicatorView.startAnimating()
         
         let userName = emailTextField.text
@@ -189,21 +183,13 @@ class LoginViewVC: UIViewController {
                 
                 self?.viewModel?.saveData(loginData: data)
                 
-                
-//                if self?.rememberMeClick == true{
-//
-//                    DispatchQueue.main.async {
-//                        self?.savetoKeychain()
-//                    }
-//                }
-                
                 //Redirect to Main Page
                 
                 DispatchQueue.main.async {
                     let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "MainViewController") as? MainViewController
                     self?.navigationController?.pushViewController(vc!, animated: true)
                     
-                   // self?.view.window?.rootViewController = UINavigationController(rootViewController: vc!)
+                    // self?.view.window?.rootViewController = UINavigationController(rootViewController: vc!)
                     
                 }
                 

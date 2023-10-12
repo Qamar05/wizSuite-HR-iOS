@@ -23,7 +23,6 @@ struct NetworkConstant {
     
     static let leavesHistoryUrl = "https://fmcg.xaapps.com/api/newleaveHistory.php"
     
-    
     static let applyLeaveUrl = "https://fmcg.xaapps.com/api/leave.php"
     
     static let leavesCancelUrl = "https://fmcg.xaapps.com/api/leaveCancel.php"
@@ -61,8 +60,6 @@ struct NetworkConstant {
 }
 
     
-
-
 
 struct GenericColours {
     

@@ -27,7 +27,6 @@ class AttendanceDetailTableViewCell: UITableViewCell {
         bgView.layer.borderWidth = 1
         
         
-        
         // Initialization code
     }
 

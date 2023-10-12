@@ -10,8 +10,8 @@ import UIKit
 class HolidayListVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: HolidayListVM?
+    private  var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: HolidayListVM?
     
     
     override func viewDidLoad() {

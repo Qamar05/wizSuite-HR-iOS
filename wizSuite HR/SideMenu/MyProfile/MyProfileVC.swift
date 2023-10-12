@@ -37,10 +37,9 @@ class MyProfileVC: UIViewController {
     @IBOutlet var submitBtn: UIButton!
     
     
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: MyProfileVM?
-    var imagePicker = UIImagePickerController()
-    
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: MyProfileVM?
+    private var imagePicker = UIImagePickerController()
     
     
     override func viewDidLoad() {

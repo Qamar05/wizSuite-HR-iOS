@@ -15,10 +15,10 @@ class OTPVerificationVC: UIViewController {
     @IBOutlet var verifyOTPBtn: UIButton!
     @IBOutlet var resendCodeTimerLabel: UILabel!
     @IBOutlet var resendCodeButton: UIButton!
-    var resendCodeCounter = 30
-    var resendCodeTimer = Timer()
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: OTPVerificationVM?
+    private var resendCodeCounter = 30
+    private var resendCodeTimer = Timer()
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: OTPVerificationVM?
     var emailAddress: String?
 
     override func viewDidLoad() {

@@ -3,7 +3,6 @@
 //  UITextViewPlaceholder
 //
 //  Created by vibhuti gupta on 28/09/23.
-//  Copyright © 2023 Maxim Bilan. All rights reserved.
 //
 
 import UIKit
@@ -18,16 +17,13 @@ class EarlyCheckOutPopUpVC: UIViewController {
     @IBOutlet var NoneBtn: UIButton!
     @IBOutlet var submitBtn: UIButton!
     
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-
-    
-    var isHRManager = false
-    var isProjectManager = false
-    var isNone = false
+    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()    
+    private var isHRManager = false
+    private var isProjectManager = false
+    private var isNone = false
     
     var viewModel: AttendanceViewModel?
 
-    
     
     override func viewDidLoad() {
         

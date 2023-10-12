@@ -19,10 +19,10 @@ class ChangePasswordVC: UIViewController {
     @IBOutlet var notificationBtn: UIBarButtonItem!
     @IBOutlet var scrollView: UIScrollView!
     
-    var viewModel: ChangePasswordVM?
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var visibilityIconChangePwClick = false
-    var visibilityIconConfirmPwClick = false
+    private var viewModel: ChangePasswordVM?
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var visibilityIconChangePwClick = false
+    private var visibilityIconConfirmPwClick = false
     
     var isFromOnboarding: Bool = false
     

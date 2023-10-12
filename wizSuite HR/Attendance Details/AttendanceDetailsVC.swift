@@ -22,13 +22,11 @@ class AttendanceDetailsVC: UIViewController {
     @IBOutlet var weekHoursLabel: UILabel!
     @IBOutlet var monthHoursLabel: UILabel!
     
-    var viewModel: AttendanceDetailsVM?
-    var timeViewModel: AttendanceViewModel?
-
-    
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var pickerData = [String]()
-    let picker = UIPickerView()
+    private var viewModel: AttendanceDetailsVM?
+    private var timeViewModel: AttendanceViewModel?
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var pickerData = [String]()
+    private let picker = UIPickerView()
 
     
     override func viewDidLoad() {

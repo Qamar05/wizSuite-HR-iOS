@@ -10,8 +10,8 @@ import UIKit
 class NotificationVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
-    var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
-    var viewModel: NotificationVM?
+    private var indicatorView: UIActivityIndicatorView = UIActivityIndicatorView()
+    private var viewModel: NotificationVM?
     
     override func viewDidLoad() {
         
